@@ -2,15 +2,16 @@
 
 ### 1섹션 "JavaScript 기초"
 
-### 2섹션 "JavaScript심화"
+### 2섹션 "JavaScript 심화"
 
 ### 3섹션 "Node.js 기초"
 
-## 4섹션 "React.js 개론"
+### 4섹션 "React.js 개론"
 
 ### 5섹션 "React.js 입문"
 
 ### 6섹션 "프로젝트1. 카운터 앱"
+
 
 ### 7섹션 "라이프사이클"
 
