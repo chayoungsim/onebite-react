@@ -1,0 +1,72 @@
+.App {
+  display:flex;
+  flex-direction:column;
+  gap: 10px;
+  width: 500px;
+  margin:0 auto;
+}
+
+.header h1{
+  color:rgb(37,147,255)
+}
+
+.editor {
+  display:flex;
+  gap: 10px;
+}
+.editor input {
+  flex: 1;
+  padding: 15px;
+  border: 1px solid rgb(220,220,220);
+  border-radius: 5px;
+}
+.editor button {
+  cursor:pointer;
+  width: 80px;
+  border: none;
+  border-radius: 5px; 
+  background-color: rgb(37,147,255);
+  color: white;
+}
+
+.searchBox {
+  display:flex;
+  gap: 10px;
+}
+.searchBox input {
+  flex: 1;
+  padding: 15px 0;
+  border: none;
+  border-bottom: 1px solid rgb(220,220,220);
+}
+.searchBox input:focus {
+  outline:none;
+  border-bottom:1px solid rgb(37,147,255)
+}
+.todoItems {
+  display:flex;
+  flex-direction:column;
+  gap: 10px;
+
+}
+.todoItem {
+  display:flex;
+  align-items: center;
+  gap:20px;
+  border-bottom: 1px solid rgb(220,220,220);
+  color: gray;
+  padding:15px 0;
+}
+.todoItem .content {
+  flex: 1;
+}
+
+.todoItem button {
+  cursor:pointer;
+  width: 40px;
+  border: none;
+  border-radius: 5px; 
+  background-color: rgb(220,220,220);
+  color: gray;
+  font-size: 14px;
+}
